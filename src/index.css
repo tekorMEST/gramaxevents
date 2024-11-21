@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Grmax Events Custom Styles */
+.grmax-animate {
+  @apply transition-transform duration-300 transform hover:scale-105;
+} 
